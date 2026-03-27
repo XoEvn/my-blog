@@ -14,7 +14,7 @@ git add -A
 git commit -m "$MSG" || echo "Nothing to commit"
 
 echo "🚀 Pushing to GitHub..."
-git push origin main
+git push origin main --force
 
 echo "🌐 Deploying to Vercel..."
 npx vercel --prod
