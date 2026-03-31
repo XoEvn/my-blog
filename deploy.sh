@@ -22,6 +22,6 @@ echo "🚀 Pushing to GitHub..."
 git push origin main --force
 
 echo "🌐 Deploying to Vercel..."
-npx vercel --prod
+npx vercel --prod --yes
 
 echo "✅ Done!"
